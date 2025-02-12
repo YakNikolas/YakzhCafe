@@ -1,0 +1,44 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px dashed black;
+}
+
+.name {
+    flex: 1;
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cartItem button {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0);
+    transition: 0.2s;
+    background: none;
+    padding: 2px 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cartItem button:hover {
+    border-bottom: 2px dashed black;
+    background: none;
+    padding: 2px 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cartItem button:active {
+    border-bottom: 2px solid black;
+}

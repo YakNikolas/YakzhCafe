@@ -1,0 +1,37 @@
+.footer {
+    position: relative;
+}
+.footer::after {
+    content: url('/bottomWave.svg');
+    position: absolute;
+    left: 0;
+    bottom: 94%;
+    width: 100%;
+    z-index: -1;
+}
+.footer {
+    background: linear-gradient(to bottom, rgba(214,183,137,1),  rgba(214,183,137,0));
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.socials {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.info {
+
+}
+
+.title {
+    font-family: "Mea Culpa";
+    text-align: center;
+    font-size: 64px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+}

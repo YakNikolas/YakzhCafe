@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Handjet:wght@100..900&family=Mea+Culpa&family=Poiret+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+  overflow: auto;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  position: relative;
+  font-family: "Poiret One", "Handjet", sans-serif;
+
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+section {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+}

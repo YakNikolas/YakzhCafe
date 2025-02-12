@@ -1,0 +1,59 @@
+.menu_title {
+    margin: auto;
+    text-align: center;
+    font-family: "Mea Culpa";
+    font-size: 100px;
+}
+.card {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25)
+}
+.card:last-child {
+    border-bottom: none;
+}
+.title_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-family: "Mea Culpa";
+    font-size: 64px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.item{
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.item:last-child {
+    border:  none;
+}
+.name {
+    padding: 5px;
+}
+
+.price {
+    text-align: center;
+    font-weight: 700;
+    padding: 5px;
+}
+
+
+.item button {
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    transition: 0.2s;
+    padding: 5px;
+}
+.item button:hover {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.25);
+}
+.item button:active {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
