@@ -1,11 +1,10 @@
-import { list } from "postcss";
 import AddToCartButton from "../AddToCartButton/AddToCartButton";
 import styles from './MenuSection.module.css';
 
 
 
 export default async function MenuCard() {
-    const response = await fetch("http://localhost:3000/api/menu", {
+    const response = await fetch("/api/menu", {
       cache: "no-store",
     });
   
