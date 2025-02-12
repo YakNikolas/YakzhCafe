@@ -18,7 +18,7 @@ const CartItem = ({ item, setUpdateData }) => {
 
       const method = quantityChange > 0 ? 'POST' : 'DELETE';
 
-      const response = await fetch('api/cart', {
+      const response = await fetch('https://yakzh-cafe.vercel.app/api/cart', {
         method,
         headers: {
           'Content-Type': 'application/json',
