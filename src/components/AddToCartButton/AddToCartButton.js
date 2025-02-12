@@ -15,7 +15,7 @@ const AddToCartButton = ({ itemId }) => {
     try {
       setisDisabled(true)
       setbuttonText('Adding...')
-      const response = await fetch('https://yakzh-cafe.vercel.app/api/cart', {
+      const response = await fetch('api/cart', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
