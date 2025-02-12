@@ -53,7 +53,7 @@ const UserCart = ({ setIsOpen }) => {
           return;
         }
 
-        const response = await fetch('https://yakzh-cafe-k9h86nbe3-nikolays-projects-0796f9f4.vercel.app/api/cart', {
+        const response = await fetch('https://yakzh-cafe.vercel.app/api/cart', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
