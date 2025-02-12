@@ -4,7 +4,7 @@ import styles from './MenuSection.module.css';
 
 
 export default async function MenuCard() {
-    const response = await fetch('api/menu', {
+    const response = await fetch('https://yakzh-cafe.vercel.app/api/menu', {
       cache: "no-store",
     });
   
