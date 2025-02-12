@@ -16,7 +16,7 @@ const DeleteCartButton = ({setIsOpen}) => {
     try {
       setisDisabled(true)
       setbuttonText('Deletion')
-      const response = await fetch('http://localhost:3000/api/cart', {
+      const response = await fetch('api/cart', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
